@@ -2,26 +2,26 @@
 import sys
 from sys import argv
 
-'''
+"""
 File_name: factors
 Created: 28th of May, 2023
 Auth: David James Taiye (Official0mega)
 Size: undefined
 Project: RSA-Factoring-Challenge
 Status: submitted.
-'''
+"""
 
 
 def factorize(value):
 
-    '''
+    """
     # Factorize as many numbers as possible into..
     # ..a product of two smaller numbers.
     # VARIABLE(" "):
     # factorize(int) Factorize all the things!
     # Usage: factors <file>
     # Output format: n=p*q
-    '''
+    """
     i = 2
 
     if value < 2:
